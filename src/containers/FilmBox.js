@@ -1,6 +1,6 @@
 import React, {Component, Fragment} from 'react';
 import FilmList from '../components/FilmList';
-import MoreFilms from '../containers/MoreFilms';
+import MoreFilms from '../components/MoreFilms';
 
 export default class FilmBox extends Component {
 
@@ -43,6 +43,7 @@ export default class FilmBox extends Component {
                 <FilmList films={this.state.films}/>
                 <MoreFilms/>
             </Fragment>
+
             )
     }
 }
